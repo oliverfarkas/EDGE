@@ -6,15 +6,19 @@ from tempfile import TemporaryDirectory
 import random
 
 import jukemirlib
+import openl3
 import numpy as np
 import torch
 from tqdm import tqdm
+import librosa
 
 from args import parse_test_opt
 from data.slice import slice_audio
 from EDGE import EDGE
 from data.audio_extraction.baseline_features import extract as baseline_extract
 from data.audio_extraction.jukebox_features import extract as juke_extract
+from data.audio_extraction.openl3_features import extract as openl3_extract
+from pickle_fix import fix_pickle
 
 # sort filenames that look like songname_slice{number}.ext
 key_func = lambda x: int(os.path.splitext(x)[0].split("_")[-1].split("slice")[-1])
@@ -38,7 +42,11 @@ stringintkey = cmp_to_key(stringintcmp_)
 
 
 def test(opt):
-    feature_func = juke_extract if opt.feature_type == "jukebox" else baseline_extract
+    feature_func = juke_extract if opt.feature_type == "jukebox" else openl3_extract if opt.feature_type == "openl3" else baseline_extract 
+    model = None
+    if (feature_func == openl3_extract):
+        model = openl3.models.load_audio_embedding_model(input_repr="mel256", content_type="music", embedding_size=6144)
+
     sample_length = opt.out_length
     sample_size = int(sample_length / 2.5) - 1
 
@@ -74,11 +82,14 @@ def test(opt):
                 temp_dir_list.append(temp_dir)
                 dirname = temp_dir.name
             # slice the audio file
+            # sample_length = librosa.get_duration(filename=wav_file)
+            # sample_size = int(sample_length / 2.5) - 1
             print(f"Slicing {wav_file}")
             slice_audio(wav_file, 2.5, 5.0, dirname)
             file_list = sorted(glob.glob(f"{dirname}/*.wav"), key=stringintkey)
             # randomly sample a chunk of length at most sample_size
-            rand_idx = random.randint(0, len(file_list) - sample_size)
+            rand_idx = 0
+            # rand_idx = random.randint(0, len(file_list) - sample_size)
             cond_list = []
             # generate juke representations
             print(f"Computing features for {wav_file}")
@@ -90,7 +101,7 @@ def test(opt):
                 # reps = jukemirlib.extract(
                 #     audio, layers=[66], downsample_target_rate=30
                 # )[66]
-                reps, _ = feature_func(file)
+                reps, _ = feature_func(file, model=model)
                 # save reps
                 if opt.cache_features:
                     featurename = os.path.splitext(file)[0] + ".npy"

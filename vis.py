@@ -168,7 +168,7 @@ def skeleton_render(
     stitch=False,
     sound_folder="ood_sliced",
     contact=None,
-    render=True
+    render=False
 ):
     if render:
         # generate the pose with FK
@@ -249,7 +249,7 @@ def skeleton_render(
             )
         if render:
             out = os.system(
-                f"ffmpeg -loglevel error -stream_loop 0 -y -i {gifname} -i {audioname} -shortest -c:v libx264 -crf 26 -c:a aac -q:a 4 {outname}"
+                f"ffmpeg -loglevel error -stream_loop 0 -y -i {gifname} -i {audioname} -r 30 -shortest -c:v libx264 -crf 26 -c:a aac -q:a 4 {outname}"
             )
     else:
         if render:

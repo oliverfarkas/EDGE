@@ -1,0 +1,2676 @@
+Parameter: encoders.0.level_blocks.0.model.0.0.weight
+Shape: torch.Size([64, 1, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.0.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.0.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.0.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.0.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.0.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.1.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.1.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.1.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.1.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.2.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.2.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.2.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.2.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.3.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.3.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.3.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.3.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.4.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.4.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.4.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.4.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.5.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.5.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.5.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.5.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.6.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.6.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.6.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.6.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.7.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.7.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.7.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.0.1.model.7.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.0.weight
+Shape: torch.Size([64, 64, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.0.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.0.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.0.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.0.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.0.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.1.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.1.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.1.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.1.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.2.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.2.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.2.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.2.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.3.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.3.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.3.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.3.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.4.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.4.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.4.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.4.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.5.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.5.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.5.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.5.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.6.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.6.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.6.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.6.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.7.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.7.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.7.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.1.1.model.7.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.0.weight
+Shape: torch.Size([64, 64, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.0.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.0.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.0.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.0.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.0.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.1.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.1.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.1.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.1.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.2.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.2.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.2.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.2.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.3.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.3.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.3.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.3.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.4.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.4.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.4.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.4.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.5.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.5.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.5.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.5.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.6.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.6.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.6.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.6.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.7.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.7.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.7.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.2.1.model.7.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.3.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.0.level_blocks.0.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.0.weight
+Shape: torch.Size([32, 1, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.1.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.1.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.1.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.1.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.1.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.1.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.1.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.1.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.1.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.1.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.1.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.1.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.1.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.1.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.1.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.0.1.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.0.weight
+Shape: torch.Size([32, 32, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.1.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.1.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.1.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.1.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.1.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.1.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.1.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.1.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.1.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.1.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.1.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.1.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.1.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.1.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.1.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.1.1.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.0.weight
+Shape: torch.Size([32, 32, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.1.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.1.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.1.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.1.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.1.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.1.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.1.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.1.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.1.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.1.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.1.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.1.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.1.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.1.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.1.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.2.1.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.3.weight
+Shape: torch.Size([64, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.0.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.0.weight
+Shape: torch.Size([32, 64, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.1.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.1.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.1.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.1.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.1.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.1.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.1.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.1.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.1.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.1.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.1.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.1.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.1.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.1.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.1.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.0.1.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.0.weight
+Shape: torch.Size([32, 32, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.1.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.1.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.1.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.1.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.1.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.1.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.1.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.1.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.1.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.1.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.1.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.1.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.1.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.1.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.1.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.1.1.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.2.weight
+Shape: torch.Size([64, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.1.level_blocks.1.model.2.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.0.weight
+Shape: torch.Size([32, 1, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.1.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.1.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.1.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.1.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.1.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.1.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.1.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.1.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.1.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.1.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.1.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.1.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.1.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.1.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.1.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.0.1.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.0.weight
+Shape: torch.Size([32, 32, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.1.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.1.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.1.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.1.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.1.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.1.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.1.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.1.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.1.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.1.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.1.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.1.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.1.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.1.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.1.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.1.1.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.0.weight
+Shape: torch.Size([32, 32, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.1.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.1.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.1.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.1.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.1.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.1.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.1.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.1.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.1.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.1.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.1.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.1.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.1.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.1.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.1.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.2.1.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.3.weight
+Shape: torch.Size([64, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.0.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.0.weight
+Shape: torch.Size([32, 64, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.1.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.1.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.1.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.1.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.1.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.1.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.1.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.1.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.1.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.1.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.1.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.1.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.1.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.1.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.1.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.0.1.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.0.weight
+Shape: torch.Size([32, 32, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.1.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.1.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.1.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.1.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.1.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.1.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.1.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.1.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.1.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.1.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.1.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.1.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.1.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.1.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.1.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.1.1.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.2.weight
+Shape: torch.Size([64, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.1.model.2.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.0.weight
+Shape: torch.Size([32, 64, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.1.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.1.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.1.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.1.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.1.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.1.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.1.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.1.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.1.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.1.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.1.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.1.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.1.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.1.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.1.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.0.1.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.0.weight
+Shape: torch.Size([32, 32, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.1.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.1.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.1.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.1.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.1.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.1.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.1.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.1.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.1.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.1.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.1.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.1.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.1.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.1.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.1.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.1.1.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.2.weight
+Shape: torch.Size([64, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: encoders.2.level_blocks.2.model.2.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.0.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.0.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.0.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.0.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.0.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.0.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.1.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.1.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.1.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.1.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.2.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.2.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.2.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.2.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.3.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.3.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.3.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.3.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.4.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.4.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.4.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.4.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.5.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.5.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.5.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.5.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.6.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.6.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.6.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.6.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.7.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.7.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.7.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.0.model.7.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.1.weight
+Shape: torch.Size([64, 64, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.1.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.0.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.0.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.0.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.0.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.1.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.1.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.1.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.1.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.2.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.2.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.2.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.2.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.3.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.3.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.3.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.3.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.4.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.4.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.4.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.4.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.5.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.5.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.5.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.5.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.6.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.6.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.6.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.6.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.7.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.7.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.7.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.0.model.7.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.1.weight
+Shape: torch.Size([64, 64, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.2.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.0.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.0.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.0.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.0.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.1.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.1.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.1.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.1.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.2.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.2.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.2.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.2.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.3.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.3.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.3.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.3.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.4.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.4.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.4.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.4.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.5.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.5.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.5.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.5.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.6.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.6.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.6.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.6.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.7.model.1.weight
+Shape: torch.Size([64, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.7.model.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.7.model.3.weight
+Shape: torch.Size([64, 64, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.0.model.7.model.3.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.1.weight
+Shape: torch.Size([64, 64, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.level_blocks.0.model.3.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.out.weight
+Shape: torch.Size([1, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.0.out.bias
+Shape: torch.Size([1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.0.weight
+Shape: torch.Size([32, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.0.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.0.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.0.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.0.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.0.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.0.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.0.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.0.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.0.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.0.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.0.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.0.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.0.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.0.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.0.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.0.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.1.weight
+Shape: torch.Size([32, 32, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.1.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.0.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.0.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.0.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.0.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.0.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.0.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.0.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.0.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.0.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.0.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.0.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.0.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.0.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.0.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.0.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.0.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.1.weight
+Shape: torch.Size([32, 32, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.2.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.0.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.0.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.0.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.0.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.0.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.0.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.0.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.0.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.0.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.0.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.0.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.0.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.0.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.0.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.0.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.0.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.1.weight
+Shape: torch.Size([32, 64, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.0.model.3.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.0.weight
+Shape: torch.Size([32, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.0.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.0.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.0.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.0.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.0.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.0.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.0.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.0.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.0.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.0.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.0.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.0.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.0.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.0.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.0.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.0.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.1.weight
+Shape: torch.Size([32, 32, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.1.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.0.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.0.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.0.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.0.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.0.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.0.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.0.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.0.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.0.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.0.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.0.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.0.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.0.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.0.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.0.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.0.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.1.weight
+Shape: torch.Size([32, 64, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.level_blocks.1.model.2.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.out.weight
+Shape: torch.Size([1, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.1.out.bias
+Shape: torch.Size([1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.0.weight
+Shape: torch.Size([32, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.0.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.0.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.0.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.0.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.0.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.0.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.0.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.0.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.0.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.0.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.0.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.0.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.0.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.0.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.0.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.0.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.1.weight
+Shape: torch.Size([32, 32, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.1.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.0.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.0.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.0.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.0.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.0.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.0.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.0.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.0.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.0.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.0.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.0.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.0.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.0.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.0.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.0.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.0.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.1.weight
+Shape: torch.Size([32, 32, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.2.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.0.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.0.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.0.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.0.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.0.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.0.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.0.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.0.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.0.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.0.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.0.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.0.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.0.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.0.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.0.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.0.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.1.weight
+Shape: torch.Size([32, 64, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.0.model.3.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.0.weight
+Shape: torch.Size([32, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.0.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.0.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.0.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.0.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.0.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.0.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.0.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.0.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.0.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.0.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.0.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.0.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.0.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.0.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.0.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.0.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.1.weight
+Shape: torch.Size([32, 32, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.1.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.0.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.0.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.0.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.0.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.0.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.0.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.0.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.0.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.0.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.0.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.0.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.0.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.0.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.0.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.0.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.0.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.1.weight
+Shape: torch.Size([32, 64, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.1.model.2.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.0.weight
+Shape: torch.Size([32, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.0.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.0.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.0.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.0.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.0.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.0.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.0.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.0.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.0.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.0.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.0.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.0.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.0.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.0.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.0.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.0.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.0.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.1.weight
+Shape: torch.Size([32, 32, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.1.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.0.model.0.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.0.model.0.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.0.model.0.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.0.model.0.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.0.model.1.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.0.model.1.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.0.model.1.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.0.model.1.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.0.model.2.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.0.model.2.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.0.model.2.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.0.model.2.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.0.model.3.model.1.weight
+Shape: torch.Size([32, 32, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.0.model.3.model.1.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.0.model.3.model.3.weight
+Shape: torch.Size([32, 32, 1])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.0.model.3.model.3.bias
+Shape: torch.Size([32])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.1.weight
+Shape: torch.Size([32, 64, 4])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.level_blocks.2.model.2.1.bias
+Shape: torch.Size([64])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.out.weight
+Shape: torch.Size([1, 64, 3])
+Not a convolutional or linear layer parameter.
+
+Parameter: decoders.2.out.bias
+Shape: torch.Size([1])
+Not a convolutional or linear layer parameter.
+
+Parameter: bottleneck.level_blocks.0.k
+Shape: torch.Size([2048, 64])
+Output Features: 2048
+
+Parameter: bottleneck.level_blocks.1.k
+Shape: torch.Size([2048, 64])
+Output Features: 2048
+
+Parameter: bottleneck.level_blocks.2.k
+Shape: torch.Size([2048, 64])
+Output Features: 2048
+
