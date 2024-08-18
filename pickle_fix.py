@@ -21,10 +21,8 @@ def fix_pickle(filepath):
     with open(modified_filepath, 'wb') as f:
         pickle.dump(data, f)
 
-
-
 if __name__ == "__main__":
-    for root, dirs, files in os.walk("/Users/oliver/dev/EDGE/eval/motions/baseline.e50.b32.pt/"):
+    for root, dirs, files in os.walk("/Users/oliver/dev/EDGE/eval/motions/baseline.e51.b32.pt/"):
         for filename in files:
             file_path = Path(os.path.join(root, filename))
             if file_path.is_file() and file_path.suffix == '.pkl':

@@ -1,6 +1,5 @@
 import argparse
-
-CHECKPOINT = "baseline.e50.b32.pt"
+import os
 
 def parse_train_opt():
     parser = argparse.ArgumentParser()
@@ -21,8 +20,8 @@ def parse_train_opt():
     parser.add_argument(
         "--wandb_pj_name", type=str, default="EDGE", help="project name"
     )
-    parser.add_argument("--batch_size", type=int, default=8, help="batch size")
-    parser.add_argument("--epochs", type=int, default=1)
+    parser.add_argument("--batch_size", type=int, default=32, help="batch size")
+    parser.add_argument("--epochs", type=int, default=100)
     parser.add_argument(
         "--force_reload", default=True, action="store_true", help="force reloads the datasets"
     )
@@ -37,7 +36,7 @@ def parse_train_opt():
     )
     parser.add_argument("--ema_interval", type=int, default=1, help="ema every x steps")
     parser.add_argument(
-        "--checkpoint", type=str, default=CHECKPOINT, help="trained checkpoint path (optional)"
+        "--checkpoint", type=str, default="checkpoints/" + os.environ['EDGE_CHECKPOINT'], help="trained checkpoint path (optional)"
     )
     opt = parser.parse_args()
     return opt
@@ -45,7 +44,7 @@ def parse_train_opt():
 
 def parse_test_opt():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--feature_type", type=str, default="baseline")
+    parser.add_argument("--feature_type", type=str, default="jukebox")
     parser.add_argument("--out_length", type=float, default=60, help="max. length of output, in seconds")
     parser.add_argument(
         "--processed_data_dir",
@@ -57,7 +56,7 @@ def parse_test_opt():
         "--render_dir", type=str, default="renders/", help="Sample render path"
     )
     parser.add_argument(
-        "--checkpoint", type=str, default="checkpoints/" + CHECKPOINT, help="checkpoint"
+        "--checkpoint", type=str, default="checkpoints/" + os.environ['EDGE_CHECKPOINT'], help="checkpoint"
     )
     parser.add_argument(
         "--music_dir",
@@ -74,13 +73,13 @@ def parse_test_opt():
     parser.add_argument(
         "--motion_save_dir",
         type=str,
-        default="eval/motions/" + CHECKPOINT + "/",
+        default="eval/motions/" + os.environ['EDGE_CHECKPOINT'] + "/",
         help="Where to save the motions",
     )
     parser.add_argument(
         "--cache_features",
         action="store_true",
-        default=False,
+        default=True,
         help="Save the jukebox features for later reuse",
     )
     parser.add_argument(
@@ -92,7 +91,7 @@ def parse_test_opt():
     parser.add_argument(
         "--use_cached_features",
         action="store_true",
-        default=False,
+        default=True,
         help="Use precomputed features instead of music folder",
     )
     parser.add_argument(

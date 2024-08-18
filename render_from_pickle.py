@@ -38,20 +38,42 @@ def move_and_rotate_camera():
     else:
         print("No camera found in the scene!")
 
+def add_text_label(filename):
+    bpy.ops.object.text_add(location=(0, 0, 0))
+    text_obj = bpy.context.object
+    text_obj.data.body = filename
+    text_obj.data.size = 1
+    text_obj.data.align_x = 'CENTER'
+    text_obj.data.align_y = 'CENTER'
+
+    text_obj.rotation_euler[0] = 0
+    text_obj.rotation_euler[1] = math.pi
+    text_obj.rotation_euler[2] = math.pi
+
+    return text_obj
+
 def save_blender_file(file_path):
     bpy.ops.wm.save_as_mainfile(filepath=file_path)
     
 def load_smpl_model(pkl_path):
+    print("pkl_path: " + pkl_path)
     extension = pkl_path.split(".")[-1]
     if extension != "pkl":
         print(f"File should be a pickle file with .pkl extension, got {extension}")
         return
 
+    # # Extract the index from the filename (assuming it's correctly formatted)
+    # start_index = pkl_path.find('slice') + len('slice')
+    # end_index = pkl_path.find('.pkl')
+    # index = int(pkl_path[start_index:end_index])
+    # print("index: " + str(index))
+
+    remove_smpl_character()
+
     with open(pkl_path, "rb") as fp:
         data = pickle.load(fp)
-        smpl_params = {"smpl_poses":data["smpl_poses"],
-                       "smpl_trans":data["smpl_trans"]}
-                    #    "smpl_trans":data["smpl_trans"] / data["smpl_scaling"][0]}
+        smpl_params = {"smpl_poses": data["smpl_poses"],
+                       "smpl_trans": data["smpl_trans"]}
 
     print("Read smpl from {}".format(pkl_path))
 
@@ -66,11 +88,9 @@ def load_smpl_model(pkl_path):
     obj = bpy.data.objects[object_name]
     obj.select_set(True)
 
-    filename = os.path.basename(pkl_path)
-    bpy.ops.object.text_add(location=(0, 0, obj.dimensions.z + 0.2))
+    bpy.ops.object.text_add(location=(0, 0, 0))
     text_obj = bpy.context.object
-    text_obj.data.body = filename
-    text_obj.parent = obj
+    text_obj.data.body = os.path.basename(os.path.dirname(pkl_path)) + "\n" + os.path.basename(pkl_path)
     text_obj.data.size = 1
     text_obj.data.align_x = 'CENTER'
     text_obj.data.align_y = 'CENTER'
@@ -79,8 +99,46 @@ def load_smpl_model(pkl_path):
     text_obj.rotation_euler[1] = math.pi
     text_obj.rotation_euler[2] = math.pi
 
-    move_and_rotate_camera()
-    move_and_rotate_light()
+    # # Set the object and its SMPL-mesh layer to be invisible before its start frame
+    # obj.hide_viewport = True
+    # obj.hide_render = True
+    # obj.keyframe_insert(data_path="hide_viewport", frame=index * 150 - 1)
+    # obj.keyframe_insert(data_path="hide_render", frame=index * 150 - 1)
+
+    # # Hide SMPL-mesh named layer
+    # for child in obj.children:
+    #     if "SMPL-mesh" in child.name:
+    #         child.hide_viewport = True
+    #         child.hide_render = True
+    #         child.keyframe_insert(data_path="hide_viewport", frame=index * 150 - 1)
+    #         child.keyframe_insert(data_path="hide_render", frame=index * 150 - 1)
+
+    # # Set the object and its SMPL-mesh layer to be visible at its start frame
+    # obj.hide_viewport = False
+    # obj.hide_render = False
+    # obj.keyframe_insert(data_path="hide_viewport", frame=index * 150)
+    # obj.keyframe_insert(data_path="hide_render", frame=index * 150)
+
+    # for child in obj.children:
+    #     if "SMPL-mesh" in child.name:
+    #         child.hide_viewport = False
+    #         child.hide_render = False
+    #         child.keyframe_insert(data_path="hide_viewport", frame=index * 150)
+    #         child.keyframe_insert(data_path="hide_render", frame=index * 150)
+
+    # Set the object and its SMPL-mesh layer to be invisible after its end frame
+    # end_frame = data["smpl_poses"].shape[0]
+    # obj.hide_viewport = True
+    # obj.hide_render = True
+    # obj.keyframe_insert(data_path="hide_viewport", frame=end_frame + 1)
+    # obj.keyframe_insert(data_path="hide_render", frame=end_frame + 1)
+
+    # for child in obj.children:
+    #     if "SMPL-mesh" in child.name:
+    #         child.hide_viewport = True
+    #         child.hide_render = True
+    #         child.keyframe_insert(data_path="hide_viewport", frame=end_frame + 1)
+    #         child.keyframe_insert(data_path="hide_render", frame=end_frame + 1)
 
     rotation_euler_xyz, translation_front_up_right = helper.GetAnimation(smpl_params)
     for b in obj.pose.bones:
@@ -122,7 +180,14 @@ def load_smpl_model(pkl_path):
 
     bpy.context.scene.render.fps = 30
 
-    return {'FINISHED'}
+    print('FINISHED')
+
+def remove_smpl_character():
+    for obj in bpy.data.objects:
+        if obj.name.startswith("SMPL"):
+            bpy.data.objects.remove(obj, do_unlink=True)
+        elif obj.type == 'FONT':
+            bpy.data.objects.remove(obj, do_unlink=True)
 
 def remove_default_cube():
     if "Cube" in bpy.data.objects:
@@ -170,17 +235,21 @@ def process_all_pkl_files(input_dir, output_dir):
     os.makedirs(output_dir, exist_ok=True)
 
     remove_default_cube()
-    dir_name = os.path.basename(os.path.normpath(input_dir))
-    output_blend = os.path.join(output_dir, f"{dir_name}.blend")
-    output_mov = os.path.join(output_dir, f"{dir_name}.mov")
+    move_and_rotate_camera()
+    move_and_rotate_light()
+
+    # dir_name = os.path.basename(os.path.normpath(input_dir))
+    # output_mov = os.path.join(output_dir, f"{dir_name}.mov")
+
     # Loop through all .pkl files in the input directory
     for filename in os.listdir(input_dir):
+        output_blend = os.path.join(output_dir, f"{filename}.blend")
         if filename.endswith(".pkl"):
             pkl_path = os.path.join(input_dir, filename)
             print(f"Processing {pkl_path}")
             load_smpl_model(pkl_path)
+            save_blender_file(output_blend)
     
-    save_blender_file(output_blend)
     # setup_quicktime_h264_render(output_mov)
     # render_animation()
 

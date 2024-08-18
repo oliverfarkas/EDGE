@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "/Applications/Blender.app/Contents/MacOS/Blender",
+                "--background",
+                "--python",
+                "~/dev/EDGE/render_from_pickle.py",
+                "/Users/oliver/dev/EDGE/eval/motions/baseline.e50.b32.pt/06LittleGhettoBoy/",
+                "/Users/oliver/dev/EDGE/renders/baseline.050.b32.pt/"
+            ]
+        }
+    ]
+}

@@ -47,6 +47,9 @@ def test(opt):
     # Get all precomputed features directories
     feature_dir_list = glob.glob(os.path.join(opt.feature_cache_dir, "*/"))
 
+    sample_length = opt.out_length
+    sample_size = int(sample_length / 2.5) - 1
+
     temp_dir_list = []
     all_cond = []
     all_filenames = []
@@ -62,16 +65,6 @@ def test(opt):
 
     # Iterate all wav files in the music directory
     for wav_file in glob.glob(os.path.join(opt.music_dir, "*.wav")):
-
-        y, sr = librosa.load(wav_file, sr=None)
-        # Calculate the duration in seconds
-        sample_length = librosa.get_duration(y=y, sr=sr)
-        # sample_length = opt.out_length
-        sample_size = int(sample_length / 2.5) - 1
-
-        cond_list = []
-
-
         # Get the precomputed features directory name
         songname = os.path.splitext(os.path.basename(wav_file))[0]
         save_dir = os.path.join(opt.feature_cache_dir, songname)
@@ -84,8 +77,8 @@ def test(opt):
         if (((dirname + '/') in feature_dir_list) and (len(file_list) == len(juke_file_list))):
             # rand_idx = random.randint(0, len(file_list) - sample_size)
             rand_idx = 0
-            file_list = file_list[0 : sample_size]
-            juke_file_list = juke_file_list[0 : sample_size]
+            file_list = file_list[rand_idx : rand_idx + sample_size]
+            juke_file_list = juke_file_list[rand_idx : rand_idx + sample_size]
             cond_list = [np.load(x) for x in juke_file_list]
             all_filenames.append(file_list)
             all_cond.append(torch.from_numpy(np.array(cond_list)))
@@ -99,11 +92,13 @@ def test(opt):
             file_list = sorted(glob.glob(f"{dirname}/*.wav"), key=stringintkey)
 
            # randomly sample a chunk of length at most sample_size
-            rand_idx = 0
+            # rand_idx = 0
             # rand_idx = random.randint(0, len(file_list) - sample_size)
             # generate juke representations
             print(f"Computing features for {wav_file}")
             for idx, file in enumerate(tqdm(file_list)):
+                cond_list = []
+                conds = []
                 # if not caching then only calculate for the interested range
                 # if (not opt.cache_features) and (not (rand_idx <= idx < rand_idx + sample_size)):
                     # continue
@@ -120,23 +115,18 @@ def test(opt):
                 # to actually use for generation
                 # if rand_idx <= idx < rand_idx + sample_size:
                 cond_list.append(reps)
-            cond_list = torch.from_numpy(np.array(cond_list))
-
-            all_cond.append(cond_list)
-            all_filenames.append(file_list[0 : sample_size])    
-
-        print("Generating dances...")
-        for i in range(len(all_cond)):
-            data_tuple = None, all_cond[i], all_filenames[i]
-            model.render_sample(
-                data_tuple, "test", opt.render_dir, render_count=-1, fk_out=fk_out, render=not opt.no_render
-            )
-        print("Done")
-        
-        # data_tuple = None, cond_list, file_list[0 : sample_size]
-        # model.render_sample(
-        #     data_tuple, "test", opt.render_dir, render_count=-1, fk_out=fk_out, render=not opt.no_render
-        # )        
+                cond_list = torch.from_numpy(np.array(cond_list))
+                end_idx = idx + 1
+                if (end_idx > len(file_list)):
+                    end_idx = len(file_list)
+                conds.append(cond_list)
+                data_tuple = None, cond_list, file_list[idx:end_idx] 
+                model.render_sample(
+                    data_tuple, "test", opt.render_dir, render_count=-1, fk_out=fk_out, render=not opt.no_render
+                )      
+            # all_cond.append(cond_list)
+            # all_filenames.append(file_list[rand_idx : rand_idx + sample_size])    
+  
 
         # print("Generating dances")
         # for i in range(len(all_cond)):
