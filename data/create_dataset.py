@@ -5,6 +5,8 @@ from pathlib import Path
 from audio_extraction.baseline_features import \
     extract_folder as baseline_extract
 from audio_extraction.jukebox_features import extract_folder as jukebox_extract
+from audio_extraction.madmom_features import \
+    extract_folder as madmom_extract
 from filter_split_data import *
 from slice import *
 
@@ -27,6 +29,10 @@ def create_dataset(opt):
         print("Extracting jukebox features")
         jukebox_extract("train/wavs_sliced", "train/jukebox_feats")
         jukebox_extract("test/wavs_sliced", "test/jukebox_feats")
+    if opt.extract_madmom:
+        print("Extracting madmom features")
+        jukebox_extract("train/wavs_sliced", "train/madmom_feats")
+        jukebox_extract("test/wavs_sliced", "test/madmom_feats")
 
 
 def parse_opt():
@@ -39,8 +45,9 @@ def parse_opt():
         default="edge_aistpp",
         help="folder containing motions and music",
     )
-    parser.add_argument("--extract-baseline", action="store_true")
-    parser.add_argument("--extract-jukebox", action="store_true")
+    parser.add_argument("--extract-madmom", action="store_true")
+    # parser.add_argument("--extract-baseline", action="store_true")
+    # parser.add_argument("--extract-jukebox", action="store_true")
     opt = parser.parse_args()
     return opt
 

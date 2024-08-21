@@ -42,7 +42,7 @@ class EDGE:
         self.accelerator = Accelerator(kwargs_handlers=[ddp_kwargs])
         state = AcceleratorState()
         num_processes = state.num_processes
-        use_baseline_feats = feature_type == "baseline"
+        use_baseline_feats = (feature_type == "baseline" or feature_type == "madmom")
 
         pos_dim = 3
         rot_dim = 24 * 6  # 24 joints, 6dof
@@ -266,7 +266,7 @@ class EDGE:
             wandb.run.finish()
 
     def render_sample(
-        self, data_tuple, label, render_dir, render_count=-1, fk_out=None, render=True
+        self, data_tuple, label, render_dir, start_idx=0, render_count=-1, fk_out=None, render=True
     ):
         _, cond, wavname = data_tuple
         assert len(cond.shape) == 3
@@ -276,11 +276,11 @@ class EDGE:
         cond = cond.to(self.accelerator.device)
         self.diffusion.render_sample(
             shape,
-            cond[:render_count],
+            cond[start_idx:start_idx + render_count],
             self.normalizer,
             label,
             render_dir,
-            name=wavname[:render_count],
+            name=wavname[start_idx:start_idx + render_count],
             sound=True,
             mode="long",
             fk_out=fk_out,

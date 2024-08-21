@@ -661,7 +661,7 @@ class GaussianDiffusion(nn.Module):
                 render=render
             )
             if fk_out is not None:
-                outname = f'{epoch}_{"_".join(os.path.splitext(os.path.basename(name[0]))[0].split("_")[:-1])}.pkl'
+                outname = f'{epoch}_{os.path.splitext(os.path.basename(name[0]))[0]}.pkl'
                 Path(fk_out).mkdir(parents=True, exist_ok=True)
                 pickle.dump(
                     {

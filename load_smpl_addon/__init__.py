@@ -70,7 +70,9 @@ class OpenSmplPklOperator(bpy.types.Operator, ImportHelper):
         with open(self.filepath, "rb") as fp:
             data = pickle.load(fp)
             smpl_params = {"smpl_poses":data["smpl_poses"],
-                "smpl_trans":data["smpl_trans"] / (data["smpl_scaling"][0]*1)}
+            "smpl_trans":data["smpl_trans"]
+                # "smpl_trans":data["smpl_trans"] / (data["smpl_scaling"][0]*1)
+        }
 
         logging.info("Read smpl from {}".format(self.filepath))
 

@@ -7,6 +7,9 @@ import librosa as lr
 import numpy as np
 from tqdm import tqdm
 
+import madmom
+import matplotlib.pyplot as plt
+
 FPS = 30
 HOP_LENGTH = 512
 SR = FPS * HOP_LENGTH
@@ -88,7 +91,6 @@ def extract(fpath, skip_completed=True, dest_dir="aist_baseline_feats"):
     #np.save(save_path, audio_feature)
     return audio_feature, save_path
 
-
 def extract_folder(src, dest):
     fpaths = Path(src).glob("*")
     fpaths = sorted(list(fpaths))
@@ -96,7 +98,6 @@ def extract_folder(src, dest):
     for fpath in tqdm(fpaths):
         rep, path = extract_(fpath)
         np.save(path, rep)
-
 
 if __name__ == "__main__":
     import argparse

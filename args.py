@@ -44,8 +44,8 @@ def parse_train_opt():
 
 def parse_test_opt():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--feature_type", type=str, default="jukebox")
-    parser.add_argument("--out_length", type=float, default=60, help="max. length of output, in seconds")
+    parser.add_argument("--feature_type", type=str, default="madmom")
+    parser.add_argument("--out_length", type=float, default=5, help="max. length of output, in seconds")
     parser.add_argument(
         "--processed_data_dir",
         type=str,

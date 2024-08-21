@@ -17,7 +17,7 @@ from data.slice import slice_audio
 from EDGE import EDGE
 from data.audio_extraction.baseline_features import extract as baseline_extract
 from data.audio_extraction.jukebox_features import extract as juke_extract
-from data.audio_extraction.openl3_features import extract as openl3_extract
+from data.audio_extraction.madmom_features import extract as madmom_extract
 from pickle_fix import fix_pickle
 
 # sort filenames that look like songname_slice{number}.ext
@@ -40,9 +40,15 @@ def stringintcmp_(a, b):
 
 stringintkey = cmp_to_key(stringintcmp_)
 
-def test(opt):
+def slice(opt):
     # Get the extraction function 
-    feature_func = juke_extract if opt.feature_type == "jukebox" else baseline_extract 
+    feature_func = None
+    if opt.feature_type == "jukebox":
+        feature_func = juke_extract 
+    elif opt.feature_type == "madmom":
+        feature_func = madmom_extract
+    else:
+        feature_func = baseline_extract 
 
     # Get all precomputed features directories
     feature_dir_list = glob.glob(os.path.join(opt.feature_cache_dir, "*/"))
@@ -50,15 +56,6 @@ def test(opt):
     temp_dir_list = []
     all_cond = []
     all_filenames = []
-
-    model = EDGE(opt.feature_type, opt.checkpoint)
-    model.eval()
-
-
-    # directory for optionally saving the dances for eval
-    fk_out = None
-    if opt.save_motions:
-        fk_out = opt.motion_save_dir
 
     # Iterate all wav files in the music directory
     for wav_file in glob.glob(os.path.join(opt.music_dir, "*.wav")):
@@ -120,18 +117,29 @@ def test(opt):
                 # to actually use for generation
                 # if rand_idx <= idx < rand_idx + sample_size:
                 cond_list.append(reps)
+
             cond_list = torch.from_numpy(np.array(cond_list))
-
             all_cond.append(cond_list)
-            all_filenames.append(file_list[0 : sample_size])    
+            all_filenames.append(file_list[0 : sample_size])  
+  
 
-        print("Generating dances...")
+        retval = []
+        # print("Generating dances...")
         for i in range(len(all_cond)):
             data_tuple = None, all_cond[i], all_filenames[i]
-            model.render_sample(
-                data_tuple, "test", opt.render_dir, render_count=-1, fk_out=fk_out, render=not opt.no_render
-            )
+            retval.append(data_tuple)
+            # Open a file in write mode (this will create the file if it doesn't exist)
+            # with open('output.txt', 'w') as file:
+            #     # Loop through the lists and write the tuple to the file
+            #     for i in range(len(all_cond)):
+            #         data_tuple = (None, all_cond[i], all_filenames[i])
+            #         # Write the tuple to the file, converting it to a string
+            #         file.write(str(data_tuple) + '\n')
+            # model.render_sample(
+            #     data_tuple, "test", opt.render_dir, render_count=-1, fk_out=fk_out, render=not opt.no_render
+            # )
         print("Done")
+        return retval
         
         # data_tuple = None, cond_list, file_list[0 : sample_size]
         # model.render_sample(
