@@ -50,6 +50,8 @@ from madmom.features.onsets import RNNOnsetProcessor, OnsetPeakPickingProcessor
 from madmom.features.beats import RNNBeatProcessor, DBNBeatTrackingProcessor
 
 def extract(fpath, skip_completed=True, dest_dir="aist_madmom_feats"):
+    print("madmom extract: ")
+    print(fpath)
     os.makedirs(dest_dir, exist_ok=True)
     audio_name = Path(fpath).stem
     save_path = os.path.join(dest_dir, audio_name + ".npy")
@@ -67,30 +69,7 @@ def extract(fpath, skip_completed=True, dest_dir="aist_madmom_feats"):
         y=data, sr=SR, hop_length=HOP_LENGTH, n_chroma=12
     ).T  # (seq_len, 12)
 
-    # peak_idxs = librosa.onset.onset_detect(
-    #     onset_envelope=envelope.flatten(), sr=SR, hop_length=HOP_LENGTH
-    # )
-    # peak_onehot = np.zeros_like(envelope, dtype=np.float32)
-    # peak_onehot[peak_idxs] = 1.0  # (seq_len,)
-
-    # try:
-    #     start_bpm = _get_tempo(audio_name)
-    # except:
-    #     start_bpm = librosa.beat.tempo(y=librosa.load(fpath)[0])[0]
-
-    # tempo, beat_idxs = librosa.beat.beat_track(
-    #     onset_envelope=envelope,
-    #     sr=SR,
-    #     hop_length=HOP_LENGTH,
-    #     start_bpm=start_bpm,
-    #     tightness=100,
-    # )
-    # beat_onehot = np.zeros_like(envelope, dtype=np.float32)
-    # beat_onehot[beat_idxs] = 1.0  # (seq_len,)
-
-    # Feature extraction with madmom
-    # Load the audio file using Madmom
-    signal = Signal(fpath, sample_rate=SR)
+    signal = Signal("../" + str(fpath), sample_rate=SR)
 
     onset_processor = RNNOnsetProcessor(fps=FPS)
     envelope = onset_processor(signal) 

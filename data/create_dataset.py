@@ -5,21 +5,20 @@ from pathlib import Path
 from audio_extraction.baseline_features import \
     extract_folder as baseline_extract
 from audio_extraction.jukebox_features import extract_folder as jukebox_extract
-from audio_extraction.madmom_features import \
-    extract_folder as madmom_extract
+from audio_extraction.madmom_features import extract_folder as madmom_extract
 from filter_split_data import *
 from slice import *
 
 
 def create_dataset(opt):
     # split the data according to the splits files
-    print("Creating train / test split")
-    split_data(opt.dataset_folder)
-    # slice motions/music into sliding windows to create training dataset
-    print("Slicing train data")
-    slice_aistpp(f"train/motions", f"train/wavs")
-    print("Slicing test data")
-    slice_aistpp(f"test/motions", f"test/wavs")
+    # print("Creating train / test split")
+    # split_data(opt.dataset_folder)
+    # # slice motions/music into sliding windows to create training dataset
+    # print("Slicing train data")
+    # slice_aistpp(f"train/motions", f"train/wavs")
+    # print("Slicing test data")
+    # slice_aistpp(f"test/motions", f"test/wavs")
     # process dataset to extract audio features
     if opt.extract_baseline:
         print("Extracting baseline features")
@@ -31,8 +30,8 @@ def create_dataset(opt):
         jukebox_extract("test/wavs_sliced", "test/jukebox_feats")
     if opt.extract_madmom:
         print("Extracting madmom features")
-        jukebox_extract("train/wavs_sliced", "train/madmom_feats")
-        jukebox_extract("test/wavs_sliced", "test/madmom_feats")
+        madmom_extract("train/wavs_sliced", "train/madmom_feats")
+        madmom_extract("test/wavs_sliced", "test/madmom_feats")
 
 
 def parse_opt():
@@ -45,9 +44,9 @@ def parse_opt():
         default="edge_aistpp",
         help="folder containing motions and music",
     )
-    parser.add_argument("--extract-madmom", action="store_true")
-    # parser.add_argument("--extract-baseline", action="store_true")
-    # parser.add_argument("--extract-jukebox", action="store_true")
+    parser.add_argument("--extract-madmom", default=True, action="store_true")
+    parser.add_argument("--extract-baseline", default=False, action="store_false")
+    parser.add_argument("--extract-jukebox", default=False, action="store_false")
     opt = parser.parse_args()
     return opt
 
