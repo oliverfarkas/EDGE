@@ -69,7 +69,7 @@ def extract(fpath, skip_completed=True, dest_dir="aist_madmom_feats"):
         y=data, sr=SR, hop_length=HOP_LENGTH, n_chroma=12
     ).T  # (seq_len, 12)
 
-    signal = Signal("../" + str(fpath), sample_rate=SR)
+    signal = Signal(str(fpath), sample_rate=SR)
 
     onset_processor = RNNOnsetProcessor(fps=FPS)
     envelope = onset_processor(signal) 
